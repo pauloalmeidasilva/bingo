@@ -1,0 +1,12 @@
+{
+    "name": "pauloalmeidasilva/sorteador-bingo",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Paulo Silva",
+            "email": "paulocdjsilva@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
