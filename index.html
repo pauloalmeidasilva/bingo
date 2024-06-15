@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador de Bingo</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+    <h1>Sorteador de Bingo</h1>
+    <div class="container">
+        <div>
+            <div id="numero-sorteado" class="numero-sorteado">N/A</div>
+            <button id="sortear-numero">Sortear Número</button>
+            <button id="novo-sorteio">Novo Sorteio</button>
+            <button id="bingo-btn">Bingo!</button>
+        </div>
+        <div class="bingo-table">
+            <table>
+                <thead>
+                    <tr>
+                        <th>B</th>
+                        <th>I</th>
+                        <th>N</th>
+                        <th>G</th>
+                        <th>O</th>
+                    </tr>
+                </thead>
+                <tbody id="bingo-body">
+                    <!-- Os números serão gerados pelo JavaScript -->
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div id="confetti-container" class="confetti-container"></div>
+    <script src="assets/scripts.js"></script>
+</body>
+</html>
